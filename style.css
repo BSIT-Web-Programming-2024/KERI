@@ -20,7 +20,7 @@
   
   body {
    
-    background: var(--background);
+    background: black;
   }
 
 nav{
@@ -93,7 +93,7 @@ nav ul a:hover{
     color:var(--background);
 }
 span{
-    background: -webkit-linear-gradient(0deg, rgb(96, 223, 46), rgb(53, 208, 255));
+    background: -webkit-linear-gradient(0deg, rgb(148, 7, 7), rgb(70, 0, 0));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -112,28 +112,35 @@ section{
 }
 
 #home {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2em;
     color: white;
+   padding-right: 80em;
 }
 
 #home img{
-    width: 25vw;
+
+    width: 15vw;
     border-radius: 50%;
     margin-top: 3em;
     
 }
+
+
 
 .info-box{
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 0.5em;
-    max-width: 600px;
-}
+    max-width: 800px;
+}   
 .info-box h1{
 font-size: 2em;
 font-weight: 800;
@@ -153,6 +160,7 @@ font-family: monospace;
 .btn-box{
     display: flex;
     gap: 1em;
+    
 }
 
 
@@ -182,7 +190,7 @@ font-family: monospace;
 }
 
 ::-webkit-scrollbar-thumb{
-    background: -webkit-linear-gradient(90deg, rgb(96, 223, 46), rgb(53, 208, 255));
+    background: -webkit-linear-gradient(90deg, rgb(148, 7, 7), rgb(70, 0, 0));
 }
 
 
@@ -190,7 +198,7 @@ font-family: monospace;
 /* About ME*/
 
 #about{
-    background-color: var(--second-background);
+    background-color: black;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -255,7 +263,7 @@ font-family: monospace;
 /*Services*/
 
 #services{
-    background-color: var(--background);
+    background-color: black;
 }
 .header{
     text-align: center;
@@ -297,12 +305,18 @@ font-family: monospace;
 
 /*Project*/
 
-
+#project{
+    background-color: black;
+}
 
 /*Contact*/
 
 #contact{
-    background-color: var(--second-background);
+    background-color: black;
+    background-image: url(backk.jpg);
+    background-size: cover;
+    background-position: center;
+
 }
 form{
     display: flex;
