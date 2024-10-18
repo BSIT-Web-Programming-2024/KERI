@@ -96,7 +96,8 @@ span{
   background: -webkit-linear-gradient(0deg, rgb(148, 7, 7), rgb(70, 0, 0));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-
+  font-weight: bolder;
+  
 }
 
 
@@ -456,6 +457,7 @@ footer{
   }
   .links.active{
       display: block;
+      
   }
 
   #home h1{
